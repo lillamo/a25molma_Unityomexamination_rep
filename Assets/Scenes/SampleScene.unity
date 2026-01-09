@@ -686,9 +686,10 @@ GameObject:
   - component: {fileID: 1021510084}
   - component: {fileID: 1021510083}
   - component: {fileID: 1021510082}
+  - component: {fileID: 1021510089}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -838,7 +839,7 @@ MonoBehaviour:
   maxSpeed: 5
   jumpForce: 8
   spriteRenderer: {fileID: 0}
-  animator: {fileID: 0}
+  animator: {fileID: 1021510089}
 --- !u!58 &1021510084
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1009,6 +1010,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1021510089
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021510080}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 92722ba8c0df23b4fa058e9b5429273f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1301538419
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1244,7 +1267,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3882147983474396178, guid: 662813bd730f9f94c832ec40a176b170, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.4799237
+      value: 7.479924
       objectReference: {fileID: 0}
     - target: {fileID: 3882147983474396178, guid: 662813bd730f9f94c832ec40a176b170, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1252,7 +1275,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3882147983474396178, guid: 662813bd730f9f94c832ec40a176b170, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.024138726
+      value: -0.02413873
       objectReference: {fileID: 0}
     - target: {fileID: 3882147983474396178, guid: 662813bd730f9f94c832ec40a176b170, type: 3}
       propertyPath: m_LocalRotation.w
